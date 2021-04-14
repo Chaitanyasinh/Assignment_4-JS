@@ -61,7 +61,6 @@ placeOder.onclick = function()
 	let coldFoam = radioButton('coldFoam');
 	let dairy = document.getElementById('dairy').value;
 
-    console.log(drizzle);
 
 	//calling a function to invoke the new order placed.
 	new CoffeeOrder(name, type, size, drizzle, whippedCream, sweetener, coldFoam, dairy).orderInfo();
