@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment 4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="main.js" async></script>
+
+	<script src="weather.js" async></script>
+</head>
+
+<body>
+	<label id="weather_label"></label>
+	<main> 
+		<div class="text-center">
+			<h1>Assignmetn-4</h1>
+		</div>
+
+		<!-- Form to create a coffee order!! -->
+		<form>
+			<fieldset>
+				<legend>Place your order here!</legend>
+				<div>
+					<label>Customer's Name: </label>
+					<input type="text" id="name">
+				</div>
+				<div>
+					<label>Type of coffe:</label>
+					<select id="type">
+						<option>French Vanilla</option>
+						<option>Chocalte tripple</option>
+						<option>Mocha</option>
+						<option>Creamy chillz</option>
+						<option>Our special!!</option>
+						
+					</select>
+				</div>
+				<div>
+					<label>Size of coffe: </label>
+					<select id="size">
+						<option>Small</option>
+						<option>Medium</option>
+						<option>Large</option>
+						<option>Extra Large</option>
+					</select>
+				</div>
+				<div>
+					<label>Drizzle: </label>
+					<label><input type="radio" name="drizzle" value="true">Yes</label>
+					<label><input type="radio" name="drizzle"  checked>No</label>
+				</div>
+				<div>
+                    <label>Whipped Cream: </label>
+					<label><input type="radio" name="whippedCream" value="true">Yes</label>
+					<label><input type="radio" name="whippedCream" value="false" checked>No</label>
+				</div>
+                <div>
+                    <label>Sweetener: </label>
+                    <label><input type="radio" name="sweetener" value="true">Yes</label>
+                    <label><input type="radio" name="sweetener" value="false" checked>No</label>
+                </div>
+				<div>
+					<label>Cold Foam: </label>
+					<label><input type="radio" name="coldFoam" value="true">Yes</label>
+					<label><input type="radio" name="coldFoam" value="false" checked>No</label>
+				</div>
+				<div>
+					<label>Dairy: </label>
+					<select id='dairy'>
+						<option>2% Milk</option>
+						<option>Skim Milk</option>
+						<option>Cream</option>
+					</select>
+				</div>
+				<div>
+					<button type="button" id="place_order">Place  Your order</button>
+				</div>
+			</fieldset>
+		</form>
+
+		<!-- Using to display order on screen instead of alert or console -->
+		<div class="Details" readonly>
+			<h3>| Details of Orders |</h3>
+			<textarea class="details" readonly></textarea>
+		</div>		
+	</main>
+</body>
+</html>

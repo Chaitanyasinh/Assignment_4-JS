@@ -1,0 +1,54 @@
+.text-center 
+{
+	text-align: center;
+}
+
+body
+{
+    background: #2c7873;
+}
+
+/* Form section's editing */
+form 
+{
+	width: 40%;
+	background-color: #5bc8ac;
+	font-size:20px;
+	margin: auto;
+}
+
+div.Details
+{
+    margin-left: 210px;
+}
+
+button 
+{
+	width: 30%;
+	background-color:#201e20;
+	align-items: center;
+    color:azure;
+}
+
+/* Details' section editing */
+
+textarea 
+{
+	width: 800px;
+	height: 200px;
+	resize: none;
+	align-items: center;
+    background-color: #5bc8ac;
+}
+
+#weather_label 
+{
+	font-size: 19px;
+	background: #91ffc1ad;
+	margin-left: 340px;
+}
+
+h1
+{
+	color: #021c1e;
+}
